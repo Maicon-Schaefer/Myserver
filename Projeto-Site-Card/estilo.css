@@ -1,0 +1,132 @@
+body{
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-title{
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+.header{
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 3px 2px black;
+}
+
+.header-logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.header-nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.header-nav a:hover{
+    background-color: #cbe300;
+    color: black;
+    text-decoration: underline;
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing-plan{
+    flex-grow: 1;
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px 2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan-title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.pricing-plan-price{
+    font-size: 34px;
+}
+
+.pricing-plan-features{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.pricing-plan-features li::marker{
+color: #cbe300;
+}
+
+.pricing-plan-cta{
+    text-decoration: none;
+    color: #0c1014;
+    background-color: #cbe300;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+    box-shadow: 0 2 px 5px black;
+}
+
+.pricing-plan-cta:hover{
+    background-color: transparent;
+    outline: 2px solid #cbe300;
+    color: #cbe300;
+}
+
+.footer-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 140px;
+    letter-spacing: 1px;
+}
+
+.footer-content-nav{
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.footer-content-nav a{
+    text-decoration: none;
+    color: white;
+    
+}
